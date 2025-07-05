@@ -153,6 +153,19 @@ section .banner{
 .menu-texto2 p{
     padding: 5px;
 }
+.menu-texto3{
+    /* position: relative; */
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0;
+    margin-bottom: 5px;
+}
+.menu-texto3 h1{
+    align-self: center;
+}
 .button{
     display: inline-block;
     color: var(--cortom7);
