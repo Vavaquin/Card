@@ -349,3 +349,15 @@ header button:hover{
     color: red;
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 400px) {
+    section {
+        max-width: clamp(200px, 100vw, 400px);
+    }
+    .menu1{
+        max-width: clamp(200px, 100vw, 400px);
+    }
+    .menu11 button{
+        font-size: medium;
+    }
+}
