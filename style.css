@@ -259,11 +259,13 @@ header button:hover{
     margin-top: 0px;
     color: var(--cf);
     transition: ease-in-out 300ms;
+    fill: var(--cf1);
 }
 .cm11 button:hover{
     transform: scale(1.02);
     background-color: var(--cw0);
     color: var(--cf2);
+    fill: var(--cf2);
 }
 
 
